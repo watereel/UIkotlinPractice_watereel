@@ -16,8 +16,9 @@
     <EditText
         android:id="@+id/contentEdt"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:hint="아무문장이나 입력"/>
+
     <Button
         android:id="@+id/okBtn"
         android:layout_width="match_parent"

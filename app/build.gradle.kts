@@ -6,6 +6,9 @@ plugins {
 android {
     namespace = "com.example.uikotlinpractice_watereel"
     compileSdk = 33
+    buildFeatures {
+        viewBinding = true
+    }
 
     defaultConfig {
         applicationId = "com.example.uikotlinpractice_watereel"
